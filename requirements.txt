@@ -1,0 +1,9 @@
+tqdm
+numpy
+pickle5==0.0.12
+Pillow==9.0.1
+tensorboard
+torch==1.7.1
+pytorch-ignite==0.4.7
+transformers==4.4.2
+
