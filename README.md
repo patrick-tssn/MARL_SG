@@ -74,3 +74,13 @@ python marl_vt_generate.py \
 	--penalty 0.4 \
 	--ckptid SELECTED_CKPT
 ```
+
+## Citation
+
+@article{Zhao2022CollaborativeRO,
+  title={Collaborative Reasoning on Multi-Modal Semantic Graphs for Video-Grounded Dialogue Generation},
+  author={Xueliang Zhao and Yuxuan Wang and Chongyang Tao and Chenshuo Wang and Dongyan Zhao},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2210.12460}
+}
