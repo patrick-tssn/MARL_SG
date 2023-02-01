@@ -21,9 +21,9 @@ pip install requirements.txt
 - Download [DSTC7-AVSD](https://github.com/hudaAlamri/DSTC7-Audio-Visual-Scene-Aware-Dialog-AVSD-Challenge)
 - Download [Twitch-FIFA](https://github.com/ramakanth-pasunuru/video-dialogue)
 - Install [word2vec](https://code.google.com/archive/p/word2vec/)
-- Install Coreference Resolution tools: [AllenNLP](https://github.com/allenai/allennlp-models) | [Huggingface](https://github.com/huggingface/neuralcoref) | [references](https://github.com/NeuroSYS-pl/coreference-resolution) | [ChatGPT](https://chat.openai.com/)
-- Install open IE tools: [OPENIE 5.1](https://github.com/dair-iitd/OpenIE-standalone) | [OPENIE6](https://github.com/dair-iitd/openie6) | [Stanford OpenIE](https://nlp.stanford.edu/software/openie.html) | [ChatGPT](https://chat.openai.com/)
-- Install video action extraction tools: [PytorchVideo](https://pytorchvideo.org/) | [SLOWFAST](https://github.com/facebookresearch/SlowFast)
+- Coreference Resolution: [AllenNLP](https://github.com/allenai/allennlp-models) | [Huggingface](https://github.com/huggingface/neuralcoref) | [references](https://github.com/NeuroSYS-pl/coreference-resolution) | [ChatGPT](https://chat.openai.com/)
+- Open IE: [OPENIE 5.1](https://github.com/dair-iitd/OpenIE-standalone) | [OPENIE6](https://github.com/dair-iitd/openie6) | [Stanford OpenIE](https://nlp.stanford.edu/software/openie.html) | [ChatGPT](https://chat.openai.com/)
+- Video Action Extraction: [PytorchVideo](https://pytorchvideo.org/) | [SLOWFAST](https://github.com/facebookresearch/SlowFast)
 - The data structure should look like the following (default)
 
 ```
