@@ -77,6 +77,7 @@ python marl_vt_generate.py \
 
 ## Citation
 
+```
 @article{Zhao2022CollaborativeRO,
   title={Collaborative Reasoning on Multi-Modal Semantic Graphs for Video-Grounded Dialogue Generation},
   author={Xueliang Zhao and Yuxuan Wang and Chongyang Tao and Chenshuo Wang and Dongyan Zhao},
@@ -84,3 +85,4 @@ python marl_vt_generate.py \
   year={2022},
   volume={abs/2210.12460}
 }
+```
