@@ -2,6 +2,8 @@
 
 This is the official code for the paper [Collaborative Reasoning on Multi-Modal Semantic Graphs for Video-Grounded Dialogue Generation](https://arxiv.org/abs/2210.12460) (EMNLP 2022 Findings)
 
+*We study video-grounded dialogue generation, where a response is generated based on the dialogue context and the associated video. The primary challenges of this task lie in (1) the difficulty of integrating video data into pre-trained language models (PLMs) which presents obstacles to exploiting the power of large-scale pre-training; and (2) the necessity of taking into account the complementarity of various modalities throughout the reasoning process. Although having made remarkable progress in video-grounded dialogue generation, existing methods still fall short when it comes to integrating with PLMs in a way that allows information from different modalities to complement each other. To alleviate these issues, we first propose extracting pertinent information from videos and turning it into reasoning paths that are acceptable to PLMs. Additionally, we propose a multi-agent reinforcement learning method to collaboratively perform reasoning on different modalities (i.e., video and dialogue context). Empirical experiment results on two public datasets indicate that the proposed model can significantly outperform state-of-the-art models by large margins on both automatic and human evaluations.*
+
 ## Overview
 
 ![model](image/README/model.png)
@@ -78,11 +80,20 @@ python marl_vt_generate.py \
 ## Citation
 
 ```
-@article{Zhao2022CollaborativeRO,
-  title={Collaborative Reasoning on Multi-Modal Semantic Graphs for Video-Grounded Dialogue Generation},
-  author={Xueliang Zhao and Yuxuan Wang and Chongyang Tao and Chenshuo Wang and Dongyan Zhao},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2210.12460}
+@inproceedings{zhao-etal-2022-collaborative,
+    title = "Collaborative Reasoning on Multi-Modal Semantic Graphs for Video-Grounded Dialogue Generation",
+    author = "Zhao, Xueliang  and
+      Wang, Yuxuan  and
+      Tao, Chongyang  and
+      Wang, Chenshuo  and
+      Zhao, Dongyan",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.442",
+    pages = "5988--5998","",
 }
+
 ```
